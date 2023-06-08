@@ -33,6 +33,34 @@ img {
     align-items: center;
 }
 
+.custom {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.h-custom {
+    font-size: 36px;
+    line-height: 1.11;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.list-custom {
+    display: flex;
+    gap: 24px;
+}
+
+.a-custom {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8e8f99;
+}
+
 .logo {
     font-weight: 800;
     font-size: 18px;
@@ -94,7 +122,7 @@ img {
 }
 
 .li-custom {
-    max-width: 1920px;
+    height: 88px;
 
 }
 
@@ -371,4 +399,14 @@ img {
 
 .button-port:focus {
     border: 1px solid transparent;
+}
+
+.a-custom:hover {
+    border-color: #404bbf;
+    color: #404bbf;
+}
+
+.a-custom:focus {
+    border-color: #404bbf;
+    color: #404bbf;
 }
