@@ -76,6 +76,10 @@ a::after {
     width: calc((100% - 120px) / 6);
 }
 
+.div-custom {
+    margin-bottom: 72px;
+}
+
 .icon {
     fill: currentColor;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -91,7 +95,6 @@ a::after {
     align-items: center;
     justify-content: center;
     color: #8e8f99;
-
 }
 
 .logo {
