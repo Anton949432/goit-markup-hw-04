@@ -76,9 +76,7 @@ a::after {
     width: calc((100% - 120px) / 6);
 }
 
-.div-custom {
-    margin-bottom: 72px;
-}
+
 
 .icon {
     fill: currentColor;
@@ -144,7 +142,7 @@ a::after {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-bottom: 16px;
+    margin-top: 16px;
 }
 
 .p-foot-index {
@@ -644,7 +642,6 @@ a::after {
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    width: 408px;
 }
 
 .mod-butt {
